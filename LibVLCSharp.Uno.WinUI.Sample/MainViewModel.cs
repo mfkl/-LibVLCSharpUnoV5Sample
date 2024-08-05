@@ -13,7 +13,7 @@ namespace LibVLCSharp.Uno.WinUI.Sample
         /// <summary>
         /// Occurs when a property value changes
         /// </summary>
-        public event PropertyChangedEventHandler PropertyChanged;
+        public event PropertyChangedEventHandler? PropertyChanged;
 
         /// <summary>
         /// Initialized a new instance of <see cref="MainViewModel"/> class
@@ -80,7 +80,7 @@ namespace LibVLCSharp.Uno.WinUI.Sample
             }
         }
 
-        private void Initialize(string[] swapChainOptions)
+        private void Initialize(string[]? swapChainOptions)
         {
             LibVLC = new LibVLC(enableDebugLogs: true, swapChainOptions);
             MediaPlayer = new LibVLCSharp.Shared.MediaPlayer(LibVLC);
