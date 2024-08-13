@@ -47,6 +47,6 @@
 		<PackageReference Include="VideoLAN.LibVLC.iOS" Version="3.3.18" />
 	</ItemGroup>
 	<ItemGroup>
-	  <PackageReference Include="LibVLCSharp.Uno" Version="3.9.1" />
+	  <PackageReference Include="LibVLCSharp.Uno" Version="3.9.0" />
 	</ItemGroup>
 </Project>
